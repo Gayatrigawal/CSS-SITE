@@ -1,0 +1,137 @@
+body {
+  background-color: #A4DDED;
+  font-family: sans-serif;
+  font-family: 'Crimson Text', serif;
+  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sacramento', cursive;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 4.375rem;/*rem is used to size the font in which rem never inherite the main size given in body but more preferrable is px*/
+  color: #373957;
+}
+
+h3 {
+  font-size: 30px;
+  margin-left: 100px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  color: #6e3d34;
+}
+
+#cloud1 {
+  height: 200px;
+  width: 200px;
+  margin-left: 900px;
+  margin-top: 40px;
+}
+
+#cloud2 {
+  height: 200px;
+  width: 200px;
+  margin-left: 200px;
+  padding-top: 100px;
+  position: absolute;
+}
+
+.headline {
+  margin-left: 560px;
+}
+
+.mountain {
+  margin-left: 400px;
+  position: relative;
+  top: 20px;
+  margin-top: 0px;
+  align-items: center;
+}
+.myinfo{
+margin-left: 20px;
+
+
+}
+.contactme{
+  margin-left: 1000px;
+}
+#cloud3{
+  height: 300px;
+  weight: 300px;
+  margin-left: 500px;
+  position: absolute;
+
+}
+#cloud4{
+  height: 300px;
+  weight: 300px;
+  margin-left: 400px;
+  position:absolute;
+  margin-top: 60px;
+}
+#cloud5{
+  height: 200px;
+  weight: 200px;
+  margin-left: 1000px;
+  position:absolute;
+  padding-top: 250px;
+
+}
+#profile{
+  margin-left: 50px;
+  border: 10px;
+  border-color: 	#8e8965;
+}
+h5{
+  text-align: right;
+  margin-right: 20px;
+}
+h4{
+  color: #6e3d34;
+}
+.below{
+  background-color: white;
+  text-align: center;
+  word-spacing:2em;
+  padding:50px 0px 20px 0px ;
+}
+/*this below code got created for the button through the website css button generator*/
+.btn {
+  margin-left: 45%;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  font-family: 'Amatic SC', cursive;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  font-family: 'Amatic SC', cursive;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  text-align: center;
+}
+a{
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;/*this remove the underline below the anchor */
+}
+
+/*line-height is the property help to maintain the spacing of the line
+float is propertywhich make image and text align and change its position to left to right
+clear is the prperty which save the text to wrap over the image */
